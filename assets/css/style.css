@@ -1,0 +1,39 @@
+.bodyPic{
+	background-image:url("../images/maxresdefault.jpg");
+background-position:all;
+    background-repeat: no-repeat;
+}
+    
+
+.header1{
+	font-family:Amphibia Bold Italic;
+	color:orange;
+	font-size:50px;
+	font-weight:900px;
+	text-align:center;
+	text-shadow:3px 3px red;
+
+
+    }
+.container1{
+	background-color:black;
+	height:auto;
+	width:600px;
+
+}
+.questions{
+	font-size:15px;
+	color:white;
+	text-shadow:2px 2px blue;
+}
+
+.answers2{
+	color:red;
+}
+.finish1{
+	color:white;
+	width:200px;
+	font-size:40px;
+	background-color:black;
+	text-align:center;
+}

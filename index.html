@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TriviaGame</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="img" href="assets/images">
+</head>
+
+<body class="bodyPic">
+	<div class= "row">
+		<br><br>
+	</div>
+
+<div class ="container container1">
+	<h1 id="greeting" class="header1">Welcome to Trivia!</h1>
+	<button id="play" class="finish1">START</button>
+	<h2 id="correctAnswers" class="answers2"></h2>
+	<h2 id="incorrectAnswers" class="answers2"></h2>
+	<h2 id="unansweredQuestions" class="answers2"></h2>
+</div>
+
+ <div id="questionaire" class ="container container1">
+	<h1 class ="header1"> !!! Totally Trivial  Trivia !!!</h1>
+	<p id="display" style="font-size:30px; color:white"> </p>
+
+	<form action="">
+		<p class="questions">Who drinks the most whiskey in the world?</p>
+		<input class="questions" type="radio" name="question1" value="India"> <span class="questions">India</span> <br>
+		<input class="questions" type="radio" name="question1" value="Russia"> <span class="questions">Russia</span> <br>
+		<input class="questions" type="radio" name="question1" value="USA"> <span class="questions">USA</span> <br>
+		<input class="questions" type="radio" name="question1" value="New Zealand"> <span class="questions">New Zealand</span> <br>
+	</form>
+<br><br>
+	<form action="">
+		<p class="questions">What fast food franchise has the most worldwide locations?</p>
+		<input class="questions" type="radio" name="question2" value="McDonalds"> <span class="questions">McDonalds</span> <br>
+		<input class="questions" type="radio" name="question2" value="Subway"> <span class="questions">Subway</span> <br>
+		<input class="questions" type="radio" name="question2" value="IDK right now"> <span class="questions">IDK right now</span> <br>
+		<input class="questions" type="radio" name="question2" value="KFC"> <span class="questions">KFC</span> <br>
+	</form>
+<br><br>
+	<form action="">
+		<p class="questions">The Roman numeral "D" stands for what number?</p>
+		<input class="questions" type="radio" name="question3" value="10"> <span class="questions">10</span> <br>
+		<input class="questions" type="radio" name="question3" value="50"> <span class="questions">50</span> <br>
+		<input class="questions" type="radio" name="question3" value="100"> <span class="questions">100</span> <br>
+		<input class="questions" type="radio" name="question3" value="500"> <span class="questions">500</span> <br>
+	</form>
+<br><br>
+<form action="">
+		<p class="questions">Which one of this methods is an Array method?</p>
+		<input class="questions" type="radio" name="question4" value=".length()"> <span class="questions">.length()</span> <br>
+		<input class="questions" type="radio" name="question4" value=".size"> <span class="questions">.size</span> <br>
+		<input class="questions" type="radio" name="question4" value=".length"> <span class="questions">.length</span> <br>
+		<input class="questions" type="radio" name="question4" value=".addClass"> <span class="questions">.addClass</span> <br>
+	</form>
+<br><br>
+<form action="">
+		<p class="questions">What was first feature length animated film?</p>
+		<input class="questions" type="radio" name="question5" value="Snow White and the Seven Dwarfs"> <span class="questions">Snow White and the Seven Dwarfs</span> <br>
+		<input class="questions" type="radio" name="question5" value="The lion King"> <span class="questions">The lion King</span> <br>
+		<input class="questions" type="radio" name="question5" value="IDK right now"> <span class="questions">IDK right now</span> <br>
+		<input class="questions" type="radio" name="question5" value="Mickey Mouse"> <span class="questions">Mickey Mouse</span> <br>
+	</form>
+<br><br>
+<form action="">
+		<p class="questions">What country was host to the 1930 inaugural FIFA Football World Cup?</p>
+		<input class="questions" type="radio" name="question6" value="Brazil"> <span class="questions">Brazil</span> <br>
+		<input class="questions" type="radio" name="question6" value="Uruguay"> <span class="questions">Uruguay</span> <br>
+		<input class="questions" type="radio" name="question6" value="Portugal"> <span class="questions">Portugal</span> <br>
+		<input class="questions" type="radio" name="question6" value="Mexico"> <span class="questions">Mexico</span> <br>
+	</form>
+
+  <button class="finish1" id="done">Finish</button>
+</div>
+	<script  type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>
